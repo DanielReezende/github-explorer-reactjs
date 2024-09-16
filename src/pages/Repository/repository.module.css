@@ -1,0 +1,83 @@
+.repository {
+  margin-top: 80px;
+}
+
+.repository-info {
+}
+
+.repository-info-header {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.repository-info-header img {
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+}
+
+.repository-info-description {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.repository-info-description strong {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+
+  color: #3d3d4d;
+}
+
+.repository-info-description p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+
+  color: #737380;
+}
+
+.repository-numbers {
+  display: flex;
+  align-items: center;
+
+  margin-top: 40px;
+
+  gap: 80px;
+}
+
+.repository-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.repository-number strong {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+
+  color: #3d3d4d;
+}
+
+.repository-number span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+
+  color: #6c6c80;
+}
+
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-top: 120px;
+}
+
+
